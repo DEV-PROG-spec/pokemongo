@@ -1,0 +1,33 @@
+.HeaderCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  
+}
+.baseheading{
+  margin: 1rem;
+  font-size: 55px;
+}
+.searchbox{
+  height: 45px;
+  width: 200px;
+  border-radius: 7px;
+  margin-top: -20px;
+  border: solid black;
+  font-size: 18px;
+  padding-left: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searchbutton{
+  height: 25px;
+  width: 85px;
+  border-radius: 7px;
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  border: solid red;
+  cursor: pointer;
+  font-family: sans-serif;
+}
