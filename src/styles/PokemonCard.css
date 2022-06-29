@@ -1,0 +1,51 @@
+.card{
+  /* border: 2px solid black; */
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  width: 100%;
+}
+.image{
+  height: 12rem;
+  width: 100%;
+  /* border: 1px solid black; */
+ background-color: rgb(225, 249, 251); 
+  object-fit: cover;
+}
+.name{
+  padding: 1rem;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para{
+  padding: 5px;
+  margin: 0 18px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid red;
+  background: transparent;
+  color: red;
+  width: 80%;
+  transition: background 200ms ease-in , color 200ms ease in;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.card:hover{
+  transform: scale(1.03);
+}
+.button:hover{
+  background: red;
+  color: white;
+}
