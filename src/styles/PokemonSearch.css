@@ -1,0 +1,7 @@
+.searchArea{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,16rem)); 
+  /* grid-template-columns: auto auto auto auto; */
+  gap: 4rem;
+  justify-content: center;
+}

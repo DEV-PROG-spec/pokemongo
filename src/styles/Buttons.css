@@ -1,0 +1,30 @@
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.prev{
+  height: 38px;
+  width: 75px;
+  border-radius: 13px;
+  border: none;
+  font-size: 20px;
+}
+.next{
+  height: 38px;
+  width: 75px;
+  border-radius: 13px;
+  color: red;
+  border: none;
+  font-size: 20px;
+}
+.prev:hover{
+  background-color: red;
+  color: white;
+}
+.next:hover{
+  background-color: red;
+  color: white;
+}
